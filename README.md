@@ -1,4 +1,4 @@
-# electrophysiology-SQLdatabase-interaction-with-Python
+# SQL-database-interaction-with-Python
 This repository serves to interact with a SQLdatabase using Python.
 The current codes serve to create tables containing the analyses from:
 * the electrophysiological recordings from the hippocampus (LFP) and the entorhinal cortex (patch-clamped neurons) 
