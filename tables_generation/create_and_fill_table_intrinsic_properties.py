@@ -14,8 +14,8 @@ import pandas as pd
 # %% connect with PostgreSQL
 
 # create a connection with PostgreSQL
-conn = pg2.connect(database='SWRs_in_entorhinal_cortex', user='postgres',
-                   password='learning_sql')
+conn = pg2.connect(database='SWRs_in_entorhinal_cortex', user='your_username',
+                   password='your_password')
 
 # create a cursor object
 cur = conn.cursor()
@@ -46,7 +46,7 @@ conn.commit()
 
 # %% load the file with the values and organize the values as a list of tuples
 
-filepath = '''C:/Users/imbroscb/Desktop/science work/SWRs projects/manuscript 2/analysis for manuscript 2/sql/current_clamp_for_SQL.xlsx'''
+filepath = 'path/to/file'
 
 df = pd.read_excel(filepath, sheet_name='Intrinsic_properties', header=0)
 df = df.sort_values(by='Date_of_recording')
