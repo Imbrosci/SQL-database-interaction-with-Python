@@ -3,7 +3,7 @@
 Created on Mon Dec  6 15:07:20 2021
 
 Create and fill a table with the SWRs-coupled PSPs parameters from the current
-clamp data of neurons from both superficial and deep layers of the entorhinal
+clamp data from neurons from both superficial and deep layers of the entorhinal
 cortex.
 
 
