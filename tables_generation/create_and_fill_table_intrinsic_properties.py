@@ -3,7 +3,7 @@
 Created on Wed Dec  8 18:54:50 2021
 
 Create and fill a table with the intrinsic properties parameters from the
-current clamp data of neurons from both superficial and deep layers of the 
+current clamp data from neurons from both superficial and deep layers of the 
 entorhinal cortex.
 
 
