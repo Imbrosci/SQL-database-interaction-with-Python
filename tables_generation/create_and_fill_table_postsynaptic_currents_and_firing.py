@@ -4,7 +4,7 @@ Created on Fri Dec 10 11:27:03 2021
 
 Create and fill a table with the SWRs-coupled PSCs parameters from the voltage
 clamp data and the SWRs-coupled firing paramenters from the current clamp data
-of neurons from both superficial and deep layers of the entorhinal cortex.
+from neurons from both superficial and deep layers of the entorhinal cortex.
 
 @author: imbroscb
 """
