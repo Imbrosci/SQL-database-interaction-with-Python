@@ -107,8 +107,8 @@ GROUP BY superficial_layer'''
 # %% connect with PostgreSQL
 
 # create a connection with PostgreSQL
-conn = pg2.connect(database='SWRs_in_entorhinal_cortex', user='postgres',
-                   password='learning_sql')
+conn = pg2.connect(database='SWRs_in_entorhinal_cortex', user='your_username',
+                   password='your_password')
 
 # create a cursor object
 cur = conn.cursor()
@@ -175,7 +175,7 @@ for row in values:
         counter += 1
     index += 1
 
-df.to_excel('C:/Users/imbroscbDokumente/SQL_with_Python/trial.xlsx')
+df.to_excel('path/to/file')
 # plot some results
 seaborn.relplot(data=df, x=columns[4], y=columns[5], hue=columns[3],
                 hue_order=firing_categories)
