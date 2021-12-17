@@ -2,7 +2,7 @@
 """
 Created on Mon Dec 13 12:07:09 2021
 
-Create and fill a table with the histology and immunostaining information of
+Create and fill a table with the histology and immunostaining information from
 biocytin-filled neurons from the superficial layers of the entorhinal cortex.
 
 @author: imbroscb
