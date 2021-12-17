@@ -38,7 +38,7 @@ CREATE TABLE intrinsic_properties(
     spike_threshold_3perc_mv DECIMAL(6, 3),
     spike_peak_mv DECIMAL(6, 3),
     spike_half_width_ms DECIMAL(6, 3),
-    Further_comments TEXT,
+    further_comments TEXT,
     PRIMARY KEY(Date_of_recording, Neuron_number)
     );
 '''
